@@ -1,0 +1,12 @@
+{
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "index_type": "IndexFlatIP",
+  "normalized_embeddings": true,
+  "chunking": {
+    "target_tokens": 700,
+    "overlap_tokens": 120
+  },
+  "count_chunks": 214,
+  "llm_model": "gemini-2.5-flash",
+  "rag_strategy": "top-k cosine + min_score gating"
+}

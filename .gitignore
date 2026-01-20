@@ -1,6 +1,6 @@
-.venv/
-__pycache__/
+# data / temp stuff
 data/
-indexes/
 *.log
 .DS_Store
+__pycache__/
+.venv/

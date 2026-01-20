@@ -26,6 +26,7 @@ A local Retrieval-Augmented Generation (RAG) system for answering questions stri
 pip install -r requirements.txt
 uvicorn api.main:app --reload
 streamlit run app/streamlit_app.py
+```
 
 ## Example use cases
 - Technical specifications (RFCs, APIs)
